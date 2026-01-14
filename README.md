@@ -1,7 +1,3 @@
-
-<img src="Screenshorts_Project/unlog_index.png" width="100%" />
-
-
 # ICT12267 Project 
 
 จัดทำขึ้นเพื่อประกอบการเรียนรายวิชา **ICT12267**  
