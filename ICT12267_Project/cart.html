@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALl Product - SPU Sport Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="Image/New_logo_spu_(Converted).png" width="100px" alt=""></a>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="Image/cart.png" width="30px" height="30px" alt=""></a>
+            <img src="Image/menu-icon.png" class="menu-icon" onclick="menutoggle()" alt="">
+        </div>
+    </div>
+
+<!---Cart items detials-->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Image/product-6.png" alt="">
+                    <div>
+                        <p>Boxing Headguard</p>
+                        <small>Price: $80.00</small><br>
+                        <a href="">Remove</a>
+                    </div>
+
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$80.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Image/product-4.png" alt="">
+                    <div>
+                        <p>Running Shoes</p>
+                        <small>Price: $80.00</small><br>
+                        <a href="">Remove</a>
+                    </div>
+
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$80.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Image/product-5.png" alt="">
+                    <div>
+                        <p>Boxing Glove</p>
+                        <small>Price: $70.00</small><br>
+                        <a href="">Remove</a>
+                    </div>
+
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$70.00</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$230.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>$35.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>$265.00</td>
+            </tr>
+        </table>
+    </div>
+
+
+</div>
+    
+<!--Footer-->
+
+     <div class="footer">
+        <div class="cotainer">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Available on Android and IOS</p>
+                    <div class="app-logo">
+                        <img src="Image/play-store.png" alt="">
+                        <img src="Image/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Image/SPU-logo.jpg" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quas nobis, doloremque perspiciatis, perferendis </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="">Coupons</a></li>
+                        <li><a href="">Blog Post</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follw Us</h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instragram</a></li>
+                        <li><a href="">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2025 - ICT12267</p>
+        </div>
+     </div>
+
+<!--JS for toggle Menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>

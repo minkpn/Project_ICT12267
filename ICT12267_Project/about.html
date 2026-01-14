@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - SPU Sport Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+    background: linear-gradient(to right, #ffe6f0, #fef9ff);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.contact-container h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #e6007e;
+    position: relative;
+}
+
+.contact-container h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #e6007e;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.contact-container p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="Image/New_logo_spu_(Converted).png" width="100px" alt=""></a>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="Image/cart.png" width="30px" height="30px" alt=""></a>
+            <img src="Image/menu-icon.png" class="menu-icon" onclick="menutoggle()" alt="">
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <h2>About SPU Sport Shop</h2>
+
+        <p>
+            <strong>SPU Sport Shop</strong> คือร้านค้าออนไลน์ที่มุ่งมั่นในการนำเสนอสินค้ากีฬาอย่างครบวงจร 
+            ทั้งเสื้อผ้า รองเท้า และอุปกรณ์กีฬา โดยเน้นคุณภาพในราคาที่เหมาะสม 
+            พร้อมตอบโจทย์ทุกไลฟ์สไตล์ของผู้รักการออกกำลังกาย
+        </p>
+
+        <br>
+
+        <p>
+            ร้านค้าของเราก่อตั้งโดยนักศึกษาจากมหาวิทยาลัยศรีปทุม 
+            ด้วยความตั้งใจที่จะสร้างแพลตฟอร์มที่ช่วยให้ทุกคนสามารถเข้าถึงสินค้า 
+            และอุปกรณ์กีฬาที่มีคุณภาพได้อย่างสะดวก รวดเร็ว และมั่นใจ
+        </p>
+
+        <br>
+
+        <p>
+            ขอบคุณทุกการสนับสนุนจากลูกค้าทุกท่าน 
+            เราหวังเป็นอย่างยิ่งว่า <strong>SPU Sport Shop</strong> 
+            จะได้เป็นส่วนหนึ่งในเส้นทางสุขภาพ ความแข็งแรง และแรงบันดาลใจของคุณ
+        </p>
+    </div>
+
+</body>
+</html>

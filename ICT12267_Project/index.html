@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPU Sport Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html"><img src="Image/New_logo_spu_(Converted).png" width="100px" alt=""></a>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="Image/cart.png" width="30px" height="30px" alt=""></a>
+                <img src="Image/menu-icon.png" class="menu-icon" onclick="menutoggle()" alt="">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Welcome to<br> SPU Sport Shop!</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi suscipit quas <br> modi nisi quod omnis accusamus, voluptates,</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="Image/img1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- featured categories-->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Image/category-2.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="Image/category-1.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="Image/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- featured product-->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Image/product-1.png" alt="">
+                <h4>Blue T-Shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-2.png" alt="">
+                <h4>Black T-Shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-3.png" alt="">
+                <h4>Black Pants</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$75.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-4.png" alt="">
+                <h4>Running Shoes</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$80.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Image/product-5.png" alt="">
+                <h4>Boxing Glove</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detial.html"><img src="Image/product-6.png" alt=""></a>
+                <a href="product-detial.html"><h4>Boxing Headgear</h4></a>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-7.png" alt="">
+                <h4>Badminton Racket</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-8.png" alt="">
+                <h4>Football</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$45.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-9.png" alt="">
+                <h4>Football Socks</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-10.png" alt="">
+                <h4>Tennis Racket</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-11.png" alt="">
+                <h4>Golf Shoes</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$85.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Image/product-12.png" alt="">
+                <h4>Swimming Goggles</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$25.00</p>
+            </div>
+        </div>
+    </div>
+<!--offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Image/exclusive.png" class="offer-img" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on SPU Sport Store</p>
+                    <h1>Smart Watch 5</h1>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, reprehenderit adipisci! Fuga perferendis nulla, minima esse error doloremque exercitationem atque, obcaecati voluptatem</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial -->
+     <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, inventore amet at voluptatem cumque tenetur aspernatur nesciunt provident fuga perspiciatis, sapiente consectetur totam quae! Exercitationem reprehenderit nisi minima! Labore, id  </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <img src="Image/user1.jpg" alt="">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, inventore amet at voluptatem cumque tenetur aspernatur nesciunt provident fuga perspiciatis, sapiente consectetur totam quae! Exercitationem reprehenderit nisi minima! Labore, id  </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <img src="Image/user2.jpg" alt="">
+                    <h3>Peter Parker</h3>
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, inventore amet at voluptatem cumque tenetur aspernatur nesciunt provident fuga perspiciatis, sapiente consectetur totam quae! Exercitationem reprehenderit nisi minima! Labore, id  </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <img src="Image/user3.jpg" alt="">
+                    <h3>Gwen Stacy</h3>
+                </div>
+            </div>
+        </div>
+     </div>
+
+<!--Brands-->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <a href="https://www.adidas.com/" target="_blank">
+                    <img src="Image/Adidas_logo.png" alt="Adidas">
+                </a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.fairtex.com/" target="_blank">
+                    <img src="Image/Fairtex-logo.png" alt="Fairtex">
+                </a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.paypal.com/" target="_blank">
+                    <img src="Image/Paypal_2014_logo.png" alt="PayPal">
+                </a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.nike.com/" target="_blank">
+                    <img src="Image/nike-logo.png" alt="Nike">
+                </a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.yonex.com/" target="_blank">
+                    <img src="Image/Logo-Yonex.svg.png" alt="Yonex">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Footer-->
+
+     <div class="footer">
+        <div class="cotainer">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Available on Android and IOS</p>
+                    <div class="app-logo">
+                        <img src="Image/play-store.png" alt="">
+                        <img src="Image/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Image/SPU-logo.jpg" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quas nobis, doloremque perspiciatis, perferendis </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="">Coupons</a></li>
+                        <li><a href="">Blog Post</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follw Us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com">Facebook</a></li>
+                        <li><a href="https://x.com/?lang=en">Twitter</a></li>
+                        <li><a href="https://www.instagram.com">Instagram</a></li>
+                        <li><a href="https://www.youtube.com">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2025 - ICT12267</p>
+        </div>
+     </div>
+
+<!--JS for toggle Menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+</body>
+</html>
